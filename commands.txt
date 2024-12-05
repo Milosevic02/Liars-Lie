@@ -1,0 +1,7 @@
+start --value 9 --max-value 20 --num-agents 10 --liar-ratio 0.3
+
+kill --id 3
+
+extend --value 9 --max-value 20 --num-agents 5 --liar-ratio 0.3
+
+playexpert --num-agents 5 --liar-ratio 0.3
